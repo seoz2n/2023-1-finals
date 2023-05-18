@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: KakaoBig-Bold-v1.0.335a95e;
+    src; url(KakaoBig-Bold-v1.0.335a95e.woff2); format('woff2');
+}
+
+body {
+    padding-left: 175px;
+    padding-right: 175px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    padding: 18px 0px 24px 0px;
+}
+
+.logo {
+    font-size: 28px;
+}
+
+.nav-menu-1 ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    list-style-type: none;
+}
+
+.nav-menu-2 ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    list-style-type: none;
+}
+
+
+.nav-menu-1 ul li {
+    margin-right: 28px;
+}
+
+.nav-menu-2 ul li{
+    margin-right: 28px;
+}
+
+.banner {
+    padding: 72px 0 0 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: start;
+}
+
+.banner-text {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.kakao-news {
+    overflow: hidden;
+    position: relative;
+    border-radius: 14px;
+    background-color: var(--colorBg10);
+    box-shadow: 4px 12px 30px 6px rgba(0, 0, 0, 09);
+}
+
+.info {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.info-m li {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    list-style-type: none;
+
+}
+
+.news-title {
+    max-height: 92px;
+    font-size: 32px;
+}
+
+.tag {
+    font-size: 14px;
+}
